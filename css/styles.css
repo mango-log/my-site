@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  margin: auto;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Syne', sans-serif;
+}
+
+h3, h4, h5, h6 {
+  font-family: 'Syne', sans-serif;
+}
+
+p {
+  font-family: 'Syne', sans-serif;
+  color: #ffa45b;
+  font-weight: 100;
+  font-size: 0.85rem;
+}
+
+hr {
+  margin: 100px auto 100px auto;
+  border-width: 10px 0 0 0;
+  border-style: dotted;
+  width: 10%;
+  border-color: #d27335;
+}
+
+h1, h2, h3, a {
+  color: #ffe9c1;
+}
+
+.top-container {
+  background-color: #ffda77;
+  position: relative;
+  padding-top: 200px;
+}
+
+.middle-container {
+  background-color: #b55410;
+}
+
+.bottom-container {
+  background-color: #ffda77;
+  padding-top: 50px;
+}
+
+/**********************.top-container**************************/
+.top-cloud {
+  position: absolute;
+  left: 65%;
+  top: 100px;
+  width: 100px;
+}
+
+.my-name {
+  font-size: 50pt;
+  color: #ffe9c1;
+}
+
+.my-introduction {
+  color: #fbf6f0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  display: block;
+  left: 20%;
+}
+
+.mountain {
+  display: block;
+  width: 100%;
+  padding-top: 200px;
+}
+
+/************************.middle-container************************/
+.profile {
+  padding-top: 100px;
+}
+
+.profile>img {
+  width: 150px;
+}
+
+.detail-introduction {
+  line-height: 2;
+}
+
+.skills {
+  display: inline-block;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.skill-design {
+  width: 20%;
+  float: left;
+  padding: 0 30px 15px 0;
+}
+
+.skill-coding {
+  display: block;
+  width: 20%;
+  float: right;
+  padding: 0 0 15px 30px;
+}
+
+.coding-skill-title {
+  text-align: right;
+}
+
+.contact-me {
+  padding: 0 0 100px 0;
+}
+
+.btn {
+  display: inline-block;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Syne', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  background: #ffa45b;
+  padding: 7px 10px 7px 10px;
+  margin: 50px 0 0 0;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f2c146;
+  text-decoration: none;
+}
+
+/************************.bottom-container************************/
+.footer-link {
+  color: #d27335;
+  text-decoration: none;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+.bottom-container>p {
+  padding: 50px 0;
+  margin: 0;
+  color: white;
+}
